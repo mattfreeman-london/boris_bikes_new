@@ -1,0 +1,5 @@
+Error name: uninitialized constant
+File path: 1: from (irb):1
+Line number: 1
+Documentation: no Class set up so can't call on it
+Solution: set up the class & initialize it
