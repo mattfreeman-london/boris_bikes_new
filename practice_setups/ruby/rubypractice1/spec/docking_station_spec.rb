@@ -18,7 +18,7 @@ describe DockingStation do
 #    it 'accepts broken bikes' do
 #      bike = double(:bike, broken?: true)
 #      subject.dock(bike)
-#      expect(@bikes.count).to eq(1)
+#      expect(subject).not_to be_empty
 #    end
 
   end
